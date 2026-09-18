@@ -1,0 +1,35 @@
+/* CRED help centre — FAQ accordion
+ *
+ * Layout and typography only. The styling of the accordion ITSELF is your work:
+ * the dividers, the hover state, how an open panel differs from a closed one,
+ * and the focus style in the last ticket.
+ *
+ * There is deliberately no rule here for showing or hiding an answer. That is
+ * the thing the project is about, and a rule for it here would be the answer. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: #101014;
+  background: #f6f6f8;
+}
+
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 1.5rem;
+}
+
+/* Your accordion styles go below. */
