@@ -6,7 +6,6 @@
  *
  * There is deliberately no rule here for showing or hiding an answer. That is
  * the thing the project is about, and a rule for it here would be the answer. */
-Rajat
 
 *,
 *::before,
@@ -86,7 +85,7 @@ h1 {
   display: none;
 }
 
-@media (max-width: 24rem) {
+@media (max-width: 20rem) {
   body {
     padding: 1.5rem 0.75rem;
   }
