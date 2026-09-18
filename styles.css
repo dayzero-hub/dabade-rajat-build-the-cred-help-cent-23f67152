@@ -33,3 +33,44 @@ h1 {
 }
 
 /* Your accordion styles go below. */
+
+.accordion {
+  background: #fff;
+  border: 1px solid #e2e2e8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.accordion-item + .accordion-item {
+  border-top: 1px solid #e2e2e8;
+}
+
+.accordion-question {
+  display: block;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  color: inherit;
+  cursor: pointer;
+}
+
+.accordion-question:hover {
+  background: #f0f0f4;
+}
+
+.accordion-answer {
+  padding: 0 1.5rem 1.25rem;
+  color: #47474f;
+}
+
+.accordion-answer p {
+  margin: 0;
+}
+
+.is-hidden {
+  display: none;
+}
